@@ -7,7 +7,7 @@
 Sign Language Detection is a project aimed at recognizing and interpreting hand gestures from sign language. This end-to-end solution employs the YOLOv5 object detection model to identify sign language phrases such as "Hello," "I love you," "Yes," "No," and "Please." The model can help bridge communication gaps and facilitate better understanding between individuals who use sign language and those who don't.
 
 ## Folder structure
-
+```
 ├───data
 ├───docs
 ├───flowcharts
@@ -63,7 +63,7 @@ Sign Language Detection is a project aimed at recognizing and interpreting hand 
     │   │   └───__pycache__
     │   └───__pycache__
     └───__pycache__
-
+```
 
 ## Model Architecture
 
