@@ -6,6 +6,65 @@
 
 Sign Language Detection is a project aimed at recognizing and interpreting hand gestures from sign language. This end-to-end solution employs the YOLOv5 object detection model to identify sign language phrases such as "Hello," "I love you," "Yes," "No," and "Please." The model can help bridge communication gaps and facilitate better understanding between individuals who use sign language and those who don't.
 
+## Folder structure
+
+├───data
+├───docs
+├───flowcharts
+├───notebook
+├───signLanguage
+│   ├───components
+│   │   
+│   ├───configuration
+│   │  
+│   ├───constant
+│   │   ├───training_pipeline
+│   │   
+│   ├───entity
+│   │   
+│   ├───exception
+│   │   
+│   ├───logger
+│   │ 
+│   ├───pipeline
+│   │  
+│   ├───utils
+├───templates
+└───yolov5
+    ├───.github
+    │   ├───ISSUE_TEMPLATE
+    │   └───workflows
+    ├───classify
+    ├───data
+    │   ├───hyps
+    │   ├───images
+    │   └───scripts
+    ├───models
+    │   ├───hub
+    │   ├───segment
+    │   └───__pycache__
+    ├───runs
+    │   └───detect
+    │       ├───exp
+    │       ├───exp2
+    │       ├───exp3
+    │       └───exp4
+    ├───segment
+    ├───utils
+    │   ├───aws
+    │   ├───docker
+    │   ├───flask_rest_api
+    │   ├───google_app_engine
+    │   ├───loggers
+    │   │   ├───clearml
+    │   │   ├───comet
+    │   │   └───wandb
+    │   ├───segment
+    │   │   └───__pycache__
+    │   └───__pycache__
+    └───__pycache__
+
+
 ## Model Architecture
 
 The project utilizes the YOLOv5 object detection model, a popular and efficient deep learning model for real-time object detection. YOLOv5 comes in various sizes (small, medium, large, and extra-large) to cater to different computing capabilities. In this implementation, I have selected small model size that balances accuracy and speed while running on various devices.
