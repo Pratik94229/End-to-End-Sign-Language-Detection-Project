@@ -89,7 +89,7 @@ To use this Sign Language Detection project, follow these steps:
    ```
    git clone https://github.com/Pratik94229/End-to-end-Sign-Language-Detection.git
    ```
-2. Created virtual enviorment using cmd:
+2. Created virtual enviorment using cmd in the cloned repository:
 ```
    conda create -p venv python==3.8
    conda activate venv/
